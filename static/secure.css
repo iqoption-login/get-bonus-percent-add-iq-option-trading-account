@@ -1,0 +1,194 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+	/*background: red;*/
+}
+
+.div-img-logo{
+	width: 100%;
+	margin: 10px;
+}
+
+.logo{
+	width: 120px;
+}
+
+.div-check-fill{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div-check-fill svg{
+	width: 120px;
+	color:#2d8f3c;
+}
+
+.div-check-fill svg:hover{
+	color:#35a947;
+}
+
+.div-text{
+	width: 50%;
+/*	height: 100px;
+	background: green;*/
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+#div-para-1{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#div-para-1 p{
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(100,100,100);
+}
+
+#para-2{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	color: rgb(120,120,120);
+	text-align: justify;
+}
+
+.div-btn-close{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div-btn-close a button{
+	text-decoration: none;
+}
+
+.div-btn-close a button{
+	border-style: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color:#2d8f3c;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.div-btn-close a button:hover{
+	background-color:#35a947;
+}
+
+
+.div-risk-warning{
+	margin: 140px 0px;
+}
+
+.risk-warning{
+	width: 340px;
+	border: 1px solid rgb(200,200,200);
+	font-family: sans-serif;
+
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+	font-size: 12px;
+	padding: 5px 10px;
+	line-height: 20px;
+	color: rgb(100,100,100);
+	border-radius: 5px;
+}
+
+.risk-warning legend{
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: rgb(50,50,50);
+}
+
+
+
+/*TELEPHONES et TABLETTES*/
+@media screen and (max-width: 992px){
+
+	.logo{
+		width: 300px;
+	}
+
+
+	.div-text{
+		width: 80%;
+	/*	height: 100px;
+		background: green;*/
+		/*margin: 0px auto;*/
+		/*margin-top: 20px;*/
+	}
+
+	#div-para-1{
+		/*background: red;*/
+		/*width: 100%;*/
+		/*display: flex;*/
+		/*align-items: center;*/
+		/*justify-content: center;*/
+	}
+
+	#div-para-1 p{
+		font-family: sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+		color: rgb(100,100,100);
+	}
+
+	#para-2{
+		/*font-family: sans-serif;*/
+		font-size: 18px;
+		/*font-weight: 700;*/
+		line-height: 40px;
+		/*color: rgb(120,120,120);*/
+		/*text-align: justify;*/
+	}
+
+	.div-btn-close a button{
+		padding: 20px;
+		font-size: 40px;
+		font-weight: 500;
+	}
+
+	.div-risk-warning{
+		margin: 300px 0px;
+	}
+
+	.risk-warning{
+		width: 75%;
+		border: 1px solid rgb(200,200,200);
+
+		/*display: flex;
+		justify-content: center;
+		align-items: center;*/
+
+		font-size: 30px;
+		font-weight: 500;
+		padding: 30px;
+		line-height: 40px;
+		font-family: sans-serif;
+		color: rgb(150,150,150);
+		border-radius: 5px;
+	}
+
+	.risk-warning legend{
+		font-family: sans-serif;
+		font-size: 35px;
+		font-weight: 700;
+		color: rgb(50,50,50);
+	}
+}

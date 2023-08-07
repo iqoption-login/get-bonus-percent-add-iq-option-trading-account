@@ -1,0 +1,454 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+	/*background: yellow;*/
+}
+
+nav{
+	width: 100%;
+	background: white;
+	position: fixed;
+	z-index: 100;
+	box-shadow:0 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.space-sub-nav{
+	height: 65px;
+}
+
+.div-nav{
+	margin-top: 12px; margin-left: 15px;
+}
+
+.input-login{
+	border-style: none;
+	cursor: pointer;
+	border-radius: 3px; 
+	width:330px; 
+	height: 45px; 
+	border: 1px solid rgb(200,200,200); 
+	padding-left: 20px; 
+	padding-top: 5px; 
+	margin-bottom: 20px;
+}
+
+/*.input-login:focus{
+	outline: none;
+}*/
+
+.btn-submit{
+	border-style: none;
+	width:350px; 
+	height: 50px; 
+	/*margin-bottom: 20px;*/
+	background-color:#35a947;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.btn-submit:hover{
+	background-color:#2d8f3c;
+}
+
+.risk-warning{
+	width: 340px;
+	border: 1px solid rgb(200,200,200);
+
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+	font-size: 12px;
+	padding: 5px 10px;
+	line-height: 20px;
+	color: rgb(150,150,150);
+	border-radius: 5px;
+}
+.risk-warning legend{
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: rgb(50,50,50);
+}
+
+.cookies-info{
+	position: fixed;
+	background: white;
+	bottom: 20px;
+	width: 300px;
+	margin: 0px 0px 30px 40px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	font-family: Century Gothic;
+	color: rgb(120,120,120);
+	border-left: 3px solid blue;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+.cookies-info a{
+	text-decoration: none;
+	color: #ff5722;
+}
+
+
+.the-svg{
+	width:160px;
+	height:38px;
+}
+
+.the-rect{
+	width:160px;
+	height:38px;
+}
+
+.div-log-in{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-log-in p{
+	color: rgb(80,80,80);
+	font-size: 35px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+.space-on-phone-n-tablet{
+	height: 150px;
+}
+
+.last-space{
+	height: 200px;
+}
+
+.cont-risk-warning-2{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 70%;
+}
+
+.risk-warning-2{
+	width: 80%;
+}
+
+.you-are-granted{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 70%;
+}
+
+.you-are-granted p{
+	font-size: 12px;
+	line-height: 20px;
+	color: rgb(150,150,150);
+	font-family: sans-serif;
+}
+
+.msg-from-django{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.msg-from-django p{
+	color: red;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* -------------------------------------------------- TABLETTES */
+
+/*TABLETTES*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+	.the-svg{
+		max-width:300px;
+	}
+
+	.the-rect{
+		width:400px;
+		height:95px;
+	}
+
+	.space-sub-nav{
+		height: 70px;
+	}
+
+	.div-log-in p{
+		color: rgb(80,80,80);
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	form{
+		width: 100%;
+	}
+
+	.div-cont-input{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.input-login{
+		width: 40%;
+		height: 45px;
+		border-radius: 7px;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 50px;
+	}
+
+	.btn-submit{
+		width: 42%;
+		height: 45px;
+		border-radius: 7px;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 200px;
+	}
+
+	/*---------------------------------------*/
+	
+	.cookies-info{
+		bottom: 0px;
+		width: 50%;
+		margin: 0px;
+		border: none;
+		padding: 0% 7%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 12px;
+		border-top: 7px solid rgb(50,50,255);
+	}
+
+	.cookies-info a{
+		/*text-decoration: none;*/
+		/*color: #ff5722;*/
+		display: block;
+	}
+
+
+	/*---------------------------------------*/
+	.risk-warning{
+		width: 50%;
+		border: 1px solid rgb(200,200,200);
+		font-size: 14px;
+		font-weight: 500;
+		padding: 20px;
+		line-height: 12px;
+		font-family: sans-serif;
+		color: rgb(150,150,150);
+		border-radius: 5px;
+	}
+
+	.risk-warning legend{
+		font-family: sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		color: rgb(50,50,50);
+	}
+
+	.space-on-phone-n-tablet{
+		height: 300px;
+	}
+
+	.last-space{
+		height: 150px;
+	}
+
+	.cont-risk-warning-2{
+		/*margin-top: 30px;*/
+		margin: 0% 5%;
+		width: 90%;
+	}
+
+	.risk-warning-2{
+		width: 90%;
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.you-are-granted{
+		width: 90%;
+	}
+
+	.you-are-granted p{
+		font-size: 12px;
+		line-height: 14px;
+		font-weight: 500;
+	}
+
+	.msg-from-django p{
+		font-size: 50px;
+		font-weight: 500;
+		margin: 0% 5%;
+	}
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* --------------------------------------------- TELEPHONES */
+
+@media screen and (max-width: 768px){
+
+
+	.the-svg{
+		max-width:200px;
+		/*height:95px;*/
+	}
+
+	.the-rect{
+		width:400px;
+		height:95px;
+	}
+
+	.space-sub-nav{
+		height: 70px;
+	}
+
+	.div-log-in p{
+		color: rgb(80,80,80);
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	form{
+		width: 100%;
+	}
+
+	.div-cont-input{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.input-login{
+		width: 85%;
+		height: 45px;
+		border-radius: 5px;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 30px;
+	}
+
+	.btn-submit{
+		width: 92%;
+		height: 50px;
+		border-radius: 5px;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 120px;
+	}
+
+	/*---------------------------------------*/
+	
+	.cookies-info{
+		/*display: none;*/
+		bottom: 0px;
+		width: 95%;
+		margin: 0px;
+		border: none;
+		padding: 0% 2%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 8px;
+		font-weight: 500;
+		line-height: 10px;
+		border-top: 7px solid rgb(50,50,255);
+	}
+	.cookies-info a{
+		/*display: block;*/
+	}
+
+
+	/*---------------------------------------*/
+	.risk-warning{
+		width: 75%;
+		border: 1px solid rgb(200,200,200);
+
+		/*display: flex;
+		justify-content: center;
+		align-items: center;*/
+
+		font-size: 10px;
+		font-weight: 500;
+		padding: 15px;
+		line-height: 15px;
+		font-family: sans-serif;
+		color: rgb(150,150,150);
+		border-radius: 5px;
+	}
+
+	.risk-warning legend{
+		font-family: sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+		color: rgb(50,50,50);
+	}
+
+
+	.space-on-phone-n-tablet{
+		height: 500px;
+	}
+
+
+	.last-space{
+		height: 80px;
+	}
+
+	.cont-risk-warning-2{
+		/*margin-top: 30px;*/
+		margin: 0% 0%;
+		width: 90%;
+	}
+
+	.risk-warning-2{
+		width: 90%;
+		font-size: 14px;
+	}
+
+	.you-are-granted{
+		width: 90%;
+	}
+
+	.you-are-granted p{
+		font-size: 10px;
+		line-height: 14px;
+		font-weight: 500;
+	}
+
+	.msg-from-django p{
+		font-size: 50px;
+		font-weight: 500;
+		margin: 0% 5%;
+	}
+}
+
